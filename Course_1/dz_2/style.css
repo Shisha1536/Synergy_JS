@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.main_unit {
+    width: 330px;
+    height: 330px;
+    display: block;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.block_logos {
+    display: flex;
+    flex-direction: row;
+}
+.my_name {
+    color: red;
+}
+.my_age {
+    color: aqua;
+}
