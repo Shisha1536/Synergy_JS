@@ -10,10 +10,12 @@ body {
     border: 1px solid #000;
     border-radius: 5px;
     background-color: #fff;
+    padding: 5px;
 }
 .block_logos {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 .my_name {
     color: red;
