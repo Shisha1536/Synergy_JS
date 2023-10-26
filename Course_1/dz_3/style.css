@@ -1,0 +1,11 @@
+main {
+    display: flex;
+}
+.menu_dishes {
+    display: flex;
+    flex-direction: row;
+}
+.menu_unit {
+    width: 150px;
+    height: 150px;
+}
