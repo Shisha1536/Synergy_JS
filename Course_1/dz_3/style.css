@@ -3,6 +3,7 @@ main {
 }
 nav {
     display: block;
+    width: min-content;
 }
 .button {
     width: 400px;
