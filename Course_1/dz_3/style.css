@@ -1,6 +1,18 @@
 main {
     display: flex;
 }
+nav {
+    display: block;
+}
+.button {
+    width: 500px;
+    height: 80px;
+    border: none;
+    font-size: 20px;
+}
+.button:hover {
+    background-color: antiquewhite;
+}
 .menu_dishes {
     display: flex;
     flex-direction: row;
