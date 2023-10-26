@@ -5,7 +5,7 @@ nav {
     display: block;
 }
 .button {
-    width: 500px;
+    width: 400px;
     height: 80px;
     border: none;
     font-size: 20px;
@@ -15,9 +15,13 @@ nav {
 }
 .menu_dishes {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 .menu_unit {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
