@@ -1,3 +1,13 @@
+header {
+    height: 70px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
 main {
     display: flex;
 }
@@ -24,5 +34,14 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+}
+footer {
+    height: 70px;
+    background-color: gray;
+    color: #fff;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
