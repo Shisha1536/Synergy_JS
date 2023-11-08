@@ -1,0 +1,22 @@
+div {
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    height: 25px;
+    border: 1px solid #000;
+}
+p{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    background-color: red;
+    animation: loading 8s infinite normal ease-in-out;
+}
+@keyframes loading {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
