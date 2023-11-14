@@ -53,15 +53,27 @@
             <div class="main__section4_block1">
                 <h2 class="section4__block1_h2">Facilities</h2>
                 <div class="section4__block1_div">
-                    <label class="section4__block1_label" for="">Mini fridge<img src="./img/fridge 1.svg" alt="Картинка"></label>
-                    <label class="section4__block1_label" for="">Kitchenette<img src="./img/kitchen 1.svg" alt="Картинка"></label>
-                    <label class="section4__block1_label" for="">Coffee machine<img src="./img/coffee.svg" alt="Картинка"></label>
-                    <label class="section4__block1_label" for="">Electric tea kettle<img src="./img/Frame 17.svg" alt="Картинка"></label>
+                    <div class="section4__block1_label">
+                        <img src="./img/fridge 1.svg" width="70px" height="70px" alt="Картинка">
+                        <label for="">Mini fridge</label>
+                    </div>
+                    <div class="section4__block1_label">
+                        <img src="./img/kitchen 1.svg" width="70px" height="70px" alt="Картинка">
+                        <label for="">Kitchenette</label>
+                    </div>
+                    <div class="section4__block1_label">
+                        <img src="./img/coffee.svg" width="70px" height="70px" alt="Картинка">
+                        <label for="">Coffee machine</label>
+                    </div>
+                    <div class="section4__block1_label">
+                        <img src="./img/Frame 17.svg" width="70px" height="70px" alt="Картинка">
+                        <label for="">Electric tea kettle</label>
+                    </div>
                 </div>
             </div>
             <div class="main__section4_block2">
                 <img src="./img/9.png" alt="Картинка">
-                <img src="./img/11.png" alt="Картинка">
+                <img src="./img/11.png" alt="Картинка" style="position: absolute; z-index: 1; margin-left: 704px;">
                 <p class="section4__block2_p">More about us</p>
             </div>
         </section>
@@ -69,7 +81,10 @@
     <footer class="footer">
         <div class="footer__block1">
             <p class="footer__block1_p">Newsletter</p>
-            <input type="email" placeholder="Email Adrdess">
+            <div style="display: flex;">
+                <input class="footer__block1_input" type="email" placeholder="Email Adrdess">
+                <p style="color: #fff; font-size: 32px; border-bottom: 1px solid #fff;">&rarr;</p>
+            </div>
             <p class="footer__block1_p">Sign up to our newsletter for special things and receive 10% off your next order.</p>
             <p class="footer__block1_p">© 2021 The Glass Huts</p>
         </div>
@@ -79,7 +94,7 @@
                 <a class="footer__block2_a" href="#">CENCELLATION POLICY</a>
                 <a class="footer__block2_a" href="#">PRIVACY POLICY</a>
             </div>
-            <div class="footer__block2_div1">
+            <div class="footer__block2_div2">
                 <img src="./img/paypal-logo 1.svg" alt="PayPal">
                 <img src="./img/symbol 1.svg" alt="MasterCard">
                 <img src="./img/symbols 1.svg" alt="VISA">
