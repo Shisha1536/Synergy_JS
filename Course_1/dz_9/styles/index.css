@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+header, main, footer {
+    margin: auto;
+    width: 1440px;
+}
+.header__section {
+    padding-top: 40px;
+    padding-bottom: 97px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__section_h3 {
+    margin-left: 120px;
+    color: var(--grayscale-black, #000);
+    font-family: Montserrat;
+    font-size: 31.93px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+}
+.header__section_div {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-right: 132px;
+}
+.header__section_div-a {
+    text-decoration: none;
+    color: rgba(54, 54, 54, 0.5);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.header__section_div-a:hover {
+    color: #000;
+    cursor: pointer;
+}
+.header__section_div-tel {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    background-color: #2C3878;
+    padding: 14px 32px;
+}
+section {
+    padding: 0 120px 100px 120px;
+}
+.main__section1_block1 {
+    display: flex;
+    margin-bottom: 46px;
+}
+.main__section1_block1-h1 {
+    width: 735px;
+    color: var(--grayscale-50, #333);
+    font-family: Montserrat;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.main__section1_block1-span {
+    width: 465px;
+    border-bottom: 2px solid #000;
+    align-self: flex-start;
+    margin-top: 50px;
+}
+.main__section1_block2 {
+    width: 252px;
+    height: 525px;
+    background-color: #2C3878;
+    color: #FFF;
+    text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-left: 806px;
+    margin-top: 140px;
+}
+.section1__block2_p1 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.section1__block2_p2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.main__section2_block1 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.main__section2_block1-h4 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 13px;
+}
+.main__section2_block1-div {
+    border-bottom: 2px solid #000;
+    width: 530px;
+}
+.main__section2_h2 {
+    width: 660px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    padding-bottom: 46px;
+}
+.main__section2_p {
+    width: 654px;
+    color: #9C9C9C;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 98px;
+}
+.main__section2_block2 {
+    background-color: #2C3878;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: grid;
+    padding-left: 120px;
+    padding-right: 132px;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, 50%);
+    gap: 25px;
+    margin-bottom: 85px;
+}
+.main__section2_block2-div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+.main__section2_block3 {
+    width: min-content;
+    margin-left: 493px;
+    margin-bottom: 100px;
+}
+.main__section2_p2 {
+    width: 654px;
+    color: #9C9C9C;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 17px;
+}
+.main__section2_btn {
+    padding: 14px 32px;
+    background-color: #2C3878;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.main__section2_btn:hover {
+    cursor: pointer;
+}
