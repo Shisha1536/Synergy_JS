@@ -64,7 +64,7 @@ section {
     font-family: Montserrat;
     font-size: 72px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 140%;
 }
 .main__section1_block1-span {
@@ -320,4 +320,70 @@ section {
     font-style: normal;
     font-weight: 500;
     line-height: 150%; 
+}
+.location__section1_block2,
+.layout__section1_block2 {
+    height: 208px;
+}
+.location__section1_block1-h1,
+.layout__section1_block1-h1 {
+    width: 747px;
+    font-size: 52px;
+}
+.main__section1_p {
+    width: 654px;
+    color: #9C9C9C;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 100px;
+}
+.layout__section1_block1-h1 {
+    width: 685px;
+}
+.layout__section2_block2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 140px;
+}
+.layout__section2_block2-item {
+    width: 380px;
+}
+.layout__section2_block2-h4 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    text-transform: uppercase;
+    margin-top: 31px;
+    margin-bottom: 11px;
+}
+.layout__section2_block2-p {
+    color: #9C9C9C;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 53px;
+}
+.layout__section2_block2-btn {
+    padding: 14px 34px 14px 32px;
+    align-items: flex-start;
+    background-color: #2C3878;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    border: none;
+}
+.layout__section2_block2-btn:hover {
+    cursor: pointer;
 }
