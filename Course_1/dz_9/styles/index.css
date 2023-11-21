@@ -387,3 +387,32 @@ section {
 .layout__section2_block2-btn:hover {
     cursor: pointer;
 }
+@media screen and (max-width: 834px) {
+    header, main, footer {
+        width: 834px;
+    }
+    .header__section {
+        padding-top: 50px;
+        padding-bottom: 56px;
+    }
+    .header__section_h3 {
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .header__section_div {
+        margin-right: 0;
+        gap: 41px;
+    }
+    section {
+        padding: 0 50px;
+    }
+    .header__section_div-a {
+        font-size: 14px;
+    }
+    .header__section_div-tel {
+        padding: 12px 20px;
+    }
+    .main__section1_block1 {
+        margin-bottom: 41px;
+    }
+}
