@@ -387,7 +387,7 @@ section {
 .layout__section2_block2-btn:hover {
     cursor: pointer;
 }
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 835px) {
     header, main, footer {
         width: 834px;
     }
@@ -413,6 +413,26 @@ section {
         padding: 12px 20px;
     }
     .main__section1_block1 {
-        margin-bottom: 41px;
+        margin-bottom: 200px;
+    }
+    .main__section1_block1-h1 {
+        font-size: 40px;
+        width: 406px;
+    }
+    .main__section1_block1-span {
+        width: 335px;
+        margin-top: 25px;
+    }
+    .main__section1_block2 {
+        width: 734px;
+        height: 159px;
+        margin-top: 210px;
+        margin-left: auto;
+        flex-direction: row;
+        align-items: center;
+    }
+    .main__section1_img {
+        width: 734px;
+        height: 400px;
     }
 }
