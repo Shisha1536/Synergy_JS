@@ -387,6 +387,9 @@ section {
 .layout__section2_block2-btn:hover {
     cursor: pointer;
 }
+.main__section2 > img {
+    margin-left: -120px;
+}
 @media screen and (max-width: 835px) {
     header, main, footer {
         width: 834px;
@@ -434,5 +437,16 @@ section {
     .main__section1_img {
         width: 734px;
         height: 400px;
+    }
+    .main__section2 > img {
+        width: 834px;
+        margin-left: -50px;
+    }
+    .main__section2_block3 {
+        margin-left: 0;
+    }
+    .main__section3_block2{
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto;
     }
 }
