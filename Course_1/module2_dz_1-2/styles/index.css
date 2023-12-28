@@ -390,7 +390,10 @@ section {
 .main__section2 > img {
     margin-left: -120px;
 }
-@media screen and (max-width: 835px) {
+.main__section2 > iframe {
+    margin-left: -120px;
+}
+@media (max-width: 1439px) {
     header, main, footer {
         width: 834px;
     }
@@ -445,8 +448,79 @@ section {
     .main__section2_block3 {
         margin-left: 0;
     }
+    .main__section3,
+    .main__section2 {
+        margin-top: 60px;
+    }
     .main__section3_block2{
         grid-template-rows: auto auto auto auto;
         grid-template-columns: auto auto;
+    }
+    .main__section3_block2 > div:nth-last-of-type(6) > img {
+        width: 734px;
+        height: 300px;
+    }
+    .main__section3_block2 > div:nth-last-of-type(5) > img {
+        width: 362px;
+        height: 610px;
+    }
+    .main__section3_block2 > div:nth-last-of-type(4) > img,
+    .main__section3_block2 > div:nth-last-of-type(3) > img,
+    .main__section3_block2 > div:nth-last-of-type(2) > img,
+    .main__section3_block2 > div:nth-last-of-type(1) > img {
+        width: 362px;
+        height: 300px;
+    }
+    .main__section4 {
+        margin-top: 60px;
+        margin-bottom: 266px;
+    }
+    .main__section4_block2-div > a > img {
+        width: 113px;
+        height: 113px;
+    }
+    .footer {
+        display: block;
+    }
+    .footer__block1_p {
+        width: 576px;
+        margin-bottom: 20px;
+    }
+    .footer__block2 {
+        width: 334px;
+    }
+    .block2__btn {
+        margin-bottom: 80px;
+    }
+    .main__section1 > img {
+        width: 734px;
+        height: 400px;
+    }
+    .location__section1_block2 {
+       width: 236px;
+       height: 159px;
+       margin-top: 265px;
+       margin-left: 500px; 
+    }
+    .main__section2 > iframe {
+        width: 834px;
+        height: 574px;
+        margin-left: -50px;
+    }
+    .layout__section1_block2 {
+        width: 236px;
+        height: 159px;
+        margin-top: 208px;
+        margin-left: 498px;
+    }
+    .layout__section2_block2-item {
+        width: 350px;
+    }
+    .layout__section2_block2-item > img {
+        width: 350px;
+        height: 314px;
+    }
+    #img-location {
+        margin-top: -159px;
     }
 }
